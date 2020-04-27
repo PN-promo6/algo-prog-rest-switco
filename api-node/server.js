@@ -41,6 +41,17 @@ let concertTours = [
     { name: 'The Division Bell Tour', year: '1994' }
 ];
 
+let labels = [
+    { name: 'EMI Columbia' },
+    { name: 'Tower' },
+    { name: 'Harvest' },
+    { name: 'Capitol' },
+    { name: 'Columbia' },
+    { name: 'Sony Music' },
+    { name: 'EMI' },
+    { name: 'Parlophone ' }
+];
+
 const express = require('express');
 const cors = require('cors');
 let corsOptions = [
@@ -60,4 +71,8 @@ app.get('/members', function (req, res) {
 
 app.get('/concertTours', function (req, res) {
     res.send(concertTours);
+});
+
+app.get('/labels', function (req, res) {
+    res.send(labels);
 });

@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
     this.dataService.getAlbums();
     this.dataService.getMembers();
     this.dataService.getTours();
+    this.dataService.getLabels();
   }
 
 }
