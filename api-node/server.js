@@ -49,7 +49,7 @@ let labels = [
     { name: 'Columbia' },
     { name: 'Sony Music' },
     { name: 'EMI' },
-    { name: 'Parlophone ' }
+    { name: 'Parlophone' }
 ];
 
 const express = require('express');
